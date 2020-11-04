@@ -16,19 +16,19 @@ const Midsection = () => (
 		<section className="section">
 			<div className="container">
 				<div className="columns is-multiline">
-					<div className="column is-one-third">
+					<div className="column is-12">
 						<article className="media">
-							<figure className="media-left">
+							{/* <figure className="media-left">
 								<span className="icon is-medium">
 									<FaSass size="fa-2x" color="#d22780" />
 								</span>
-							</figure>
+							</figure> */}
+							
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Uses Bulma</h1>
+									<h1 className="title is-size-4">About SweMoc.</h1>
 									<p className="subtitle is-size-5">
-										Bulma is an open source CSS framework and used by more than
-										100,000 developers.
+									There are thousands of supplements on the market, all vying for your effort, time and trust. But we’re different –  gimmicks and unsupported claims have ruined the Egyptian supplement market and we are here to end that. Swemoc was created to provide you with supplements that are tasty, dependable, trusty, and effective all made in Sweden and exclusively brought to you here in Egypt. So you can count on Swemoc to prevent the need for cure. Everyday we'll add more products that you can trust and love.
 									</p>
 								</div>
 							</div>
@@ -36,24 +36,15 @@ const Midsection = () => (
 					</div>
 					<div className="column is-one-third">
 						<article className="media">
-							<figure className="media-left">
+							{/* <figure className="media-left">
 								<span className="icon is-medium">
 									<FaHtml5 size="fa-2x" className="has-text-danger" />
 								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">JAMStack Solution</h1>
-									<p className="subtitle is-size-5">
-										It’s a new way of building websites and apps that delivers
-										better performance, higher security, lower cost of scaling,
-										and a better developer experience.
-									</p>
-								</div>
-							</div>
+							</figure> */}
+							
 						</article>
 					</div>
-					<div className="column is-one-third">
+					{/* <div className="column is-one-third">
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
@@ -71,68 +62,72 @@ const Midsection = () => (
 								</div>
 							</div>
 						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaMobileAlt size="fa-2x" color="blue" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Responsive Design</h1>
-									<p className="subtitle is-size-5">
-										Bulma is based on the Flexbox model and built with Sass. The
-										simplest grid system Just add columns, they will resize
-										themselves, like this website.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
+					</div> */}
+					
 
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaOsi size="fa-2x" className="has-text-primary" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Open Source</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is MIT Licensed. Need I say more?
-										<Emoji emoji="🤑" />
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaRocket size="fa-2x" className="has-text-danger" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Starter Kit</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is target to developers who are looking
-										forward to use Bulma along with GatsbyJS. You can read more
-										in the <a href="https://gatsbyjs.org">documentation</a> on
-										how to get started.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-				</div>
+			</div>
 			</div>
 		</section>
+		<section className="hero quoteBg" style={{height: 233}}>
+				<div className="hero-body">			
+								<div className="content ">
+								<div className="columns is-mobile">
+								<div className="column is-half"></div>
+								<div className="column is-half">
+									<p className="subtitle is-size-7 has-text-white">
+									We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. 
+									</p>
+								</div>
+								</div>
+								</div>
+								</div>
+							</section>
+							<section className="section">
+							<div className="container">
+							<div className="media-content">
+								<div className="content">
+								
+									<p className="subtitle is-size-5">
+									Sign up now to our email list and get 20% off on your first order and updates for our launch in Egypt!
+									</p>
+								</div>
+							</div>
+							</div>
+							</section>
+							<section className="hero footerBg" style={{height: 233}}>
+								<div className="hero-body">			
+								<div className="content ">
+								<div className="columns is-multiline is-mobile">
+								<div className="column is-12">
+								<p className="subtitle is-size-5 has-text-white">
+									Get Your 20% Discount
+									</p>
+								</div>
+								
+								<div className="column is-8">
+								<input className="input is-small" type="text" placeholder="Enter your e-mail"></input>
+								</div>
+								<div className="column is-4">
+								<div className="content">
+						
+								<a
+									className="button is-small is-info is-inverted"
+									href=""
+								>
+									{/* <span className="icon">
+										<FaGithub size="fa-2x" />
+									</span> */}
+									<span>Sign Up</span>
+								</a>
+							
+						</div>
+						
+								</div>
+
+								</div>
+								</div>
+								</div>
+							</section>
 	</div>
 );
 

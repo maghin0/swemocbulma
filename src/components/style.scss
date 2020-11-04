@@ -1,29 +1,60 @@
+//Importing fonts
+@import 'desginfonts.scss';
 // Importing variables
 @import './variables.scss';
-
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 
-.gradientBg {
-	display: flex;
-	background: linear-gradient(to right, $primary-color, $secondary-color);
+$breakpoint-tablet: 768px;
+body {
+  font-family: 'Robotobold', sans-serif;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+}
+.heroCta {
+  margin-top: 30vh;
+}
+.heroBg {
+  display: flex;
+  background-image: url(../images/mob-hero.jpg);
+  background-size: cover;
+  @media (min-width: $breakpoint-tablet) {
+    background-image: url(../images/dsk-hero-2.jpg);
+  }
+}
+.quoteBg {
+  display: flex;
+  background-image: url(../images/mob-quote-bg.jpg);
+  background-size: cover;
+  @media (min-width: $breakpoint-tablet) {
+    background-image: url(../images/dsk-quote-bg.jpg);
+  }
+}
+.footerBg {
+  display: flex;
+  background-image: url(../images/mob-footer.jpg);
+  background-size: cover;
+  @media (min-width: $breakpoint-tablet) {
+    background-image: url(../images/dsk-footer.jpg);
+  }
+}
 .center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
-	display: flex;
-	padding: 1.5rem 1.5rem;
-	line-height: 1.5rem;
-	a {
-		border-bottom: 1px solid;
-		color: black;
-	}
-	a:hover {
-		color: $secondary-color;
-	}
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  line-height: 1.5rem;
+  a {
+    border-bottom: 1px solid;
+    color: black;
+  }
+  a:hover {
+    color: $secondary-color;
+  }
 }

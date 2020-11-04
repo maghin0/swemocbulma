@@ -33,7 +33,7 @@ module.exports = {
 				theme_color: '#2980b9',
 				display: 'standalone',
 				icon: 'src/images/gatsby-icon.png',
-				orientation: 'portrait'
+				// orientation: 'portrait'
 			}
 		},
 		`gatsby-plugin-sass`,

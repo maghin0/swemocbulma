@@ -24,6 +24,12 @@ p {
     font-size: 6rem !important;
   }
 }
+.wider {
+  padding: 1rem 1rem;
+  @media (min-width: $breakpoint-tablet) {
+    padding: 2rem 2rem;
+  }
+}
 .logo {
   padding: 2rem 1rem;
 }

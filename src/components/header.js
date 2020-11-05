@@ -3,8 +3,8 @@ import { FaGithub } from 'react-icons/fa';
 
 import './style.scss';
 
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
+// import gatsbyLogo from '../images/gatsby-icon.png';
+// import bulmaLogo from '../images/bulma-logo.png';
 import Navbar from './navbar';
 
 const Header = ({ siteTitle }) => (
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
 						<div className='columns is-multiline'>
 						<div className="column is-6">
 							<h1 className="is-uppercase is-size-1 is-size-large-desktop has-text-black">
-							Keeps you moving.
+							Keeps <p>you</p> moving.
 							</h1>
 							</div>	
 							<div className="column is-7">
@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
 									{/* <span className="icon">
 										<FaGithub size="fa-2x" />
 									</span> */}
-									<span>Get 20% Discount</span>
+									<span className="wider">Get 20% Discount</span>
 								</a>
 							</p>
 							</div>

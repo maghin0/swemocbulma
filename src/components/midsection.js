@@ -104,12 +104,12 @@ const Midsection = () => (
 									</p>
 								</div>
 								
-								<div className="column is-4">
+								<div className="column is-half-mobile is-4-desktop">
 								<form name="Sign up" netlify>
 								<input className="input is-small" type="text" placeholder="Enter your e"></input>
 								</form>
 								</div>
-								<div className="column is-4">
+								<div className="column">
 								<div className="content">
 						
 								<a

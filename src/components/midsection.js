@@ -28,7 +28,7 @@ const Midsection = () => (
 								<div className="content">
 									<h1 className="title is-size-4 is-size-1-desktop">About SweMoc.</h1>
 									<p className="subtitle is-size-6 is-size-3-desktop">
-									There are thousands of supplements on the market, all vying for your effort, time and trust. But we’re different –  gimmicks and unsupported claims have ruined the Egyptian supplement market and we are here to end that. Swemoc was created to provide you with supplements that are tasty, dependable, trusty, and effective all made in Sweden and exclusively brought to you here in Egypt. So you can count on Swemoc to prevent the need for cure. Everyday we'll add more products that you can trust and love.
+									There are thousands of supplements on the market, all vying for your efforts, time and trust . But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards! Swemoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. Exclusively brought to you here in Egypt, so you can count on Swemoc to help prevent the need for cure. Everyday we'll add more products that you can trust and love.
 									</p>
 								</div>
 							</div>

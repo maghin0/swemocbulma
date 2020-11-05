@@ -15,6 +15,17 @@ p {
 }
 .heroCta {
   margin-top: 30vh;
+  margin-right: 10vw;
+}
+.blackcta {
+  background-color: #0b0c0d;
+  border-color: transparent;
+  color: #ffffff;
+}
+.whitecta {
+  background-color: #ffffff;
+  border-color: transparent;
+  color: #0b0c0d;
 }
 .heroBg {
   display: flex;
@@ -28,8 +39,10 @@ p {
   display: flex;
   background-image: url(../images/mob-quote-bg.jpg);
   background-size: cover;
+  height: 233px !important;
   @media (min-width: $breakpoint-tablet) {
     background-image: url(../images/dsk-quote-bg.jpg);
+    height: 500px !important;
   }
 }
 .footerBg {

@@ -68,7 +68,7 @@ const Midsection = () => (
 			</div>
 			</div>
 		</section>
-		<section className="hero quoteBg" style={{height: 233}}>
+		<section className="hero quoteBg">
 				<div className="hero-body">			
 								<div className="content ">
 								<div className="columns is-mobile">
@@ -105,13 +105,13 @@ const Midsection = () => (
 								</div>
 								
 								<div className="column is-8">
-								<input className="input is-small" type="text" placeholder="Enter your e-mail"></input>
+								<input className="input is-small" type="text" placeholder="Enter your e"></input>
 								</div>
 								<div className="column is-4">
 								<div className="content">
 						
 								<a
-									className="button is-small is-info is-inverted"
+									className="button is-small whitecta"
 									href=""
 								>
 									{/* <span className="icon">

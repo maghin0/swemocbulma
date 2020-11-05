@@ -13,7 +13,8 @@ const Header = ({ siteTitle }) => (
 
 	</section> */}
 	<section className="hero heroBg is-fullheight">
-		{/* <Navbar /> */}
+		<Navbar />
+		
 		<div className="hero-body">
 
 						<div className="content">
@@ -23,7 +24,7 @@ const Header = ({ siteTitle }) => (
 							<p className="subtitle has-text-black is-size-3">
 							Exclusive Swedish supplement solutions coming to Egypt.
 								<a
-									className="button is-info is-inverted heroCta"
+									className="button blackcta heroCta"
 									href=""
 								>
 									{/* <span className="icon">

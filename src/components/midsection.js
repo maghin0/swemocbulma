@@ -105,7 +105,9 @@ const Midsection = () => (
 								</div>
 								
 								<div className="column is-4">
+								<form name="Sign up" netlify>
 								<input className="input is-small" type="text" placeholder="Enter your e"></input>
+								</form>
 								</div>
 								<div className="column is-4">
 								<div className="content">
@@ -117,7 +119,7 @@ const Midsection = () => (
 									{/* <span className="icon">
 										<FaGithub size="fa-2x" />
 									</span> */}
-									<span>Sign Up</span>
+									<span type="submit">Sign Up</span>
 								</a>
 							
 						</div>

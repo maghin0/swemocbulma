@@ -6,6 +6,11 @@
 @import '~bulma/bulma.sass';
 
 $breakpoint-tablet: 768px;
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Robotobold', sans-serif;
 }
@@ -13,9 +18,21 @@ body {
 p {
   font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (min-width: 1024px) {
+  .is-size-large-desktop {
+    font-size: 6rem !important;
+  }
+}
+.logo {
+  padding: 2rem 1rem;
+}
 .heroCta {
-  margin-top: 30vh;
-  margin-right: 10vw;
+  margin-top: 20vh;
+  margin-right: 50vw;
+  @media (min-width: $breakpoint-tablet) {
+    margin-top: 10vh !important;
+  }
 }
 .blackcta {
   background-color: #0b0c0d;
@@ -42,7 +59,7 @@ p {
   height: 233px !important;
   @media (min-width: $breakpoint-tablet) {
     background-image: url(../images/dsk-quote-bg.jpg);
-    height: 500px !important;
+    height: 550px !important;
   }
 }
 .footerBg {

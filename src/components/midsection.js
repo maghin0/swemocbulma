@@ -26,8 +26,8 @@ const Midsection = () => (
 							
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">About SweMoc.</h1>
-									<p className="subtitle is-size-5">
+									<h1 className="title is-size-4 is-size-1-desktop">About SweMoc.</h1>
+									<p className="subtitle is-size-6 is-size-3-desktop">
 									There are thousands of supplements on the market, all vying for your effort, time and trust. But we’re different –  gimmicks and unsupported claims have ruined the Egyptian supplement market and we are here to end that. Swemoc was created to provide you with supplements that are tasty, dependable, trusty, and effective all made in Sweden and exclusively brought to you here in Egypt. So you can count on Swemoc to prevent the need for cure. Everyday we'll add more products that you can trust and love.
 									</p>
 								</div>
@@ -74,7 +74,7 @@ const Midsection = () => (
 								<div className="columns is-mobile">
 								<div className="column is-half"></div>
 								<div className="column is-half">
-									<p className="subtitle is-size-7 has-text-white">
+									<p className="subtitle is-size-7 is-size-1-desktop has-text-white">
 									We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. 
 									</p>
 								</div>
@@ -87,24 +87,24 @@ const Midsection = () => (
 							<div className="media-content">
 								<div className="content">
 								
-									<p className="subtitle is-size-5">
+									<p className="subtitle is-size-5 is-size-2-desktop">
 									Sign up now to our email list and get 20% off on your first order and updates for our launch in Egypt!
 									</p>
 								</div>
 							</div>
 							</div>
 							</section>
-							<section className="hero footerBg" style={{height: 233}}>
+							<section className="hero footerBg" style={{height: 233}} id="cta">
 								<div className="hero-body">			
 								<div className="content ">
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
-								<p className="subtitle is-size-5 has-text-white">
+								<p className="subtitle is-size-5 is-size-1-desktop has-text-white">
 									Get Your 20% Discount
 									</p>
 								</div>
 								
-								<div className="column is-8">
+								<div className="column is-4">
 								<input className="input is-small" type="text" placeholder="Enter your e"></input>
 								</div>
 								<div className="column is-4">

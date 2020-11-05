@@ -96,7 +96,7 @@ const Midsection = () => (
 							</section>
 							<section className="hero footerBg" style={{height: 233}} id="cta">
 								<div className="hero-body">			
-								<div className="content ">
+								<div className="content" style={{paddingLeft: 60}}>
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
 								<p className="subtitle is-size-5 is-size-1-desktop has-text-white">
@@ -104,7 +104,7 @@ const Midsection = () => (
 									</p>
 								</div>
 								
-								<div className="column is-half-mobile is-4-desktop">
+								<div className="column is-8-mobile is-4-desktop">
 								<form name="Sign up" netlify>
 								<input className="input is-small" type="text" placeholder="Enter your e"></input>
 								</form>
@@ -119,7 +119,7 @@ const Midsection = () => (
 									{/* <span className="icon">
 										<FaGithub size="fa-2x" />
 									</span> */}
-									<span type="submit">Sign Up</span>
+									<span type="submit"><p>Sign Up</p></span>
 								</a>
 							
 						</div>

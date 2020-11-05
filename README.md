@@ -1,9 +1,9 @@
-# Gatsby Bulma Quickstart
+# SweMoc - Swedish supplements coming to egypt SOON
 
-> A Quick Way to bootstrap your next Gatsby + Bulma site.
+> Your solution to dietary supplements at the highest quality!
 
-![ss](https://i.imgur.com/Vz81GEl.png)
-
+![SweMoc](https://unsplash.com/photos/oNvTBKUd83o)
+<!-- 
 ## Demo 💯
 
 - [Demo Link](https://tender-raman-99e09b.netlify.com/)
@@ -69,4 +69,4 @@ If you find any possible improvement or suggestion related to code or UI/UX plea
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A611K61)
 
-**Happy Coding!** 🎉🎉
+**Happy Coding!** 🎉🎉 -->

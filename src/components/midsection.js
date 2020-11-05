@@ -96,7 +96,7 @@ const Midsection = () => (
 							</section>
 							<section className="hero footerBg" style={{height: 233}} id="cta">
 								<div className="hero-body">			
-								<div className="content" style={{paddingLeft: 60}}>
+								<div className="content footerspace">
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
 								<p className="subtitle is-size-5 is-size-1-desktop has-text-white">

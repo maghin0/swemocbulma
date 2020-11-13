@@ -26,8 +26,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: 'Makefolio',
-				short_name: 'Makefolio',
+				name: 'SweMoc',
+				short_name: 'SweMoc',
 				start_url: '/',
 				background_color: '#2980b9',
 				theme_color: '#2980b9',
@@ -36,6 +36,7 @@ module.exports = {
 				// orientation: 'portrait'
 			}
 		},
+		`gatsby-plugin-offline`,
 		`gatsby-plugin-sass`,
 		{
 			resolve: `gatsby-plugin-google-analytics`,

@@ -69,14 +69,14 @@ const Midsection = () => (
 			</div>
 		</section>
 		<section className="hero quoteBg">
-				<div className="hero-body">			
+				<div className="custom-body">			
 								<div className="content ">
 								<div className="columns is-mobile">
 								
-								<div className="column is-8">
-									<p className="subtitle is-size-7 is-size-1-desktop has-text-black">
+								<div className="column is-12">
+									<h6 className="subtitle is-size-7 is-size-1-desktop has-text-black">
 									We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. 
-									</p>
+									</h6>
 								</div>
 								</div>
 								</div>

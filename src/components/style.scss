@@ -10,6 +10,7 @@ $breakpoint-tablet: 768px;
 html {
   scroll-behavior: smooth;
   background-color: #0b0c0d;
+  overflow: hidden;
 }
 
 body {
@@ -29,6 +30,11 @@ p {
     font-size: 4rem !important;
     letter-spacing: 0.5rem;
   }
+}
+.custom-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 1.5rem 1.5rem;
 }
 .footerspace {
   padding-left: 1%;

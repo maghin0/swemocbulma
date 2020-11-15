@@ -26,8 +26,8 @@ const Midsection = () => (
 							
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4 is-size-1-desktop">About SweMoc.</h1>
-									<p className="subtitle is-size-6 is-size-3-desktop">
+									<h1 className="title is-size-4 is-size-1-desktop has-text-white">About SweMoc.</h1>
+									<p className="subtitle is-size-6 is-size-3-desktop has-text-white">
 									There are thousands of supplements on the market, all vying for your efforts, time and trust . But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards! Swemoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. Exclusively brought to you here in Egypt, so you can count on Swemoc to help prevent the need for cure. Everyday we'll add more products that you can trust and love.
 									</p>
 								</div>
@@ -72,9 +72,9 @@ const Midsection = () => (
 				<div className="hero-body">			
 								<div className="content ">
 								<div className="columns is-mobile">
-								<div className="column is-half"></div>
-								<div className="column is-half">
-									<p className="subtitle is-size-7 is-size-1-desktop has-text-white">
+								
+								<div className="column is-8">
+									<p className="subtitle is-size-7 is-size-1-desktop has-text-black">
 									We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. 
 									</p>
 								</div>
@@ -87,7 +87,7 @@ const Midsection = () => (
 							<div className="media-content">
 								<div className="content">
 								
-									<p className="subtitle is-size-5 is-size-2-desktop">
+									<p className="subtitle is-size-5 is-size-2-desktop has-text-white">
 									Sign up now to our email list and get 20% off on your first order and updates for our launch in Egypt!
 									</p>
 								</div>
@@ -99,21 +99,21 @@ const Midsection = () => (
 								<div className="content footerspace">
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
-								<p className="subtitle is-size-5 is-size-1-desktop has-text-white">
+								<p className="subtitle is-size-5 is-size-1-desktop has-text-black">
 									Get Your 20% Discount
 									</p>
 								</div>
 								
 								<div className="column is-8-mobile is-4-desktop">
 								<form name="Sign up" netlify>
-								<input className="input is-small" type="text" placeholder="Enter your e"></input>
+								<input className="input is-small" type="text" placeholder="Enter your email"></input>
 								</form>
 								</div>
 								<div className="column">
 								<div className="content">
 						
 								<a
-									className="button is-small whitecta"
+									className="button is-small blackcta"
 									href=""
 								>
 									{/* <span className="icon">

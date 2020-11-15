@@ -9,6 +9,7 @@ $breakpoint-tablet: 768px;
 
 html {
   scroll-behavior: smooth;
+  background-color: #0b0c0d;
 }
 
 body {
@@ -68,26 +69,34 @@ p {
   display: flex;
   background-image: url(../images/mob-hero.jpg);
   background-size: cover;
+  margin: 1rem;
+  border-radius: 1rem;
   @media (min-width: $breakpoint-tablet) {
     background-image: url(../images/dsk-hero-2.jpg);
+    margin: 2rem;
+    border-radius: 1rem;
   }
 }
 .quoteBg {
   display: flex;
-  background-image: url(../images/mob-quote-bg.jpg);
+  background-image: url(../images/mobquotebg.jpg);
   background-size: cover;
+  margin: 1rem;
+  border-radius: 1rem;
   height: 233px !important;
   @media (min-width: $breakpoint-tablet) {
-    background-image: url(../images/dsk-quote-bg.jpg);
+    background-image: url(../images/dskquotebg.jpg);
     height: 550px !important;
   }
 }
 .footerBg {
   display: flex;
-  background-image: url(../images/mob-footer.jpg);
+  background-image: url(../images/mobfooter.jpg);
   background-size: cover;
+  margin: 1rem;
+  border-radius: 1rem;
   @media (min-width: $breakpoint-tablet) {
-    background-image: url(../images/dsk-footer.jpg);
+    background-image: url(../images/dskfooter.jpg);
   }
 }
 .center {

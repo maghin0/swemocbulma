@@ -12,7 +12,7 @@ const Navbar = () => (
 				<div className="navbar-brand">
 					<a
 						className="logo"
-						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
+						href=""
 					>
 					<picture>
 						<source

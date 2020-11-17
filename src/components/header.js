@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
 	{/* <section className="hero heroBg is-fullheight">
 
 	</section> */}
-	<section className="hero heroBg is-fullheight">
+	<section className="hero heroBg hero-height">
 		<Navbar />
 		
 		<div className="hero-body" style={{paddingTop: 0}}>

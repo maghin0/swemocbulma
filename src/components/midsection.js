@@ -13,7 +13,7 @@ import Emoji from './emoji';
 
 const Midsection = () => (
 	<div>
-		<section className="section">
+		<section className="small-section">
 			<div className="container">
 				<div className="columns is-multiline">
 					<div className="column is-12">
@@ -28,7 +28,12 @@ const Midsection = () => (
 								<div className="content">
 									<h1 className="title is-size-4 is-size-1-desktop has-text-white">About SweMoc.</h1>
 									<p className="subtitle is-size-6 is-size-3-desktop has-text-white">
-									There are thousands of supplements on the market, all vying for your efforts, time and trust . But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards! Swemoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. Exclusively brought to you here in Egypt, so you can count on Swemoc to help prevent the need for cure. Everyday we'll add more products that you can trust and love.
+									There are thousands of supplements on the market, all vying for your efforts, time and trust.
+									<br /> But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards!
+									<br /> SweMoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. 
+									<br /> Exclusively brought to you here in Egypt, so you can count on SweMoc to help prevent the need for cure.
+									<br /> Everyday we'll add more products that you can trust and love.
+									<br /> You can also check our <a href="https://www.self.nu/"> Swedish website here!</a>
 									</p>
 								</div>
 							</div>
@@ -95,7 +100,7 @@ const Midsection = () => (
 							</div>
 							</section>
 							<section className="hero footerBg" style={{height: 233}} id="cta">
-								<div className="hero-body">			
+								<div className="custom-body"> 			
 								<div className="content footerspace">
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
@@ -106,7 +111,7 @@ const Midsection = () => (
 								
 								<div className="column is-8-mobile is-4-desktop">
 								<form name="Sign up" netlify>
-								<input className="input is-small" type="text" placeholder="Enter your email"></input>
+								<input className="input black-boarder is-small" type="text" placeholder="Enter your email"></input>
 								</form>
 								</div>
 								<div className="column">
@@ -130,6 +135,21 @@ const Midsection = () => (
 								</div>
 								</div>
 							</section>
+
+							<section className="hero"> 
+							<div className="hero-body center"> 
+							<a
+									className="button is-large whitecta"
+									href="mailto:info@swemoc.com"
+								>
+									{/* <span className="icon">
+										<FaGithub size="fa-2x" />
+									</span> */}
+									<span type="submit"><p>Contact Us</p></span>
+								</a>
+								</div>
+							</section>
+
 	</div>
 );
 

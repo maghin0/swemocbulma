@@ -28,10 +28,10 @@ const Midsection = () => (
 								<div className="content">
 									<h1 className="title is-size-4 is-size-1-desktop has-text-white">About SweMoc.</h1>
 									<p className="subtitle is-size-6 is-size-3-desktop has-text-white">
-									There are thousands of supplements on the market, all vying for your efforts, time and trust.
+									There are thousands of supplements in the market, all vying for your efforts, time and trust.
 									<br /> But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards!
 									<br /> SweMoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. 
-									<br /> Exclusively brought to you here in Egypt, so you can count on SweMoc to help prevent the need for cure.
+									<br /> Exclusively brought to you here in Egypt, so you can count on SweMoc to feel the wellbeing you want.
 									<br /> Everyday we'll add more products that you can trust and love.
 									<br /> You can also check our <a href="https://www.self.nu/"> Swedish website here!</a>
 									</p>
@@ -79,9 +79,9 @@ const Midsection = () => (
 								<div className="columns is-mobile">
 								
 								<div className="column is-12">
-									<h6 className="subtitle is-size-7 is-size-1-desktop has-text-black">
-									We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. 
-									</h6>
+									<p className="subtitle is-size-7 is-size-1-desktop has-text-black">
+									<b>We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. </b>
+									</p>
 								</div>
 								</div>
 								</div>

@@ -26,14 +26,14 @@ const Midsection = () => (
 							
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4 is-size-1-desktop has-text-white">About SweMoc.</h1>
+									<h1 className="title is-size-4 is-size-2-desktop has-text-white">About SweMoc.</h1>
 									<p className="subtitle is-size-6 is-size-3-desktop has-text-white">
 									There are thousands of supplements in the market, all vying for your efforts, time and trust.
 									<br /> But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards!
 									<br /> SweMoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. 
 									<br /> Exclusively brought to you here in Egypt, so you can count on SweMoc to feel the wellbeing you want.
 									<br /> Everyday we'll add more products that you can trust and love.
-									<br /> You can also check our <a href="https://www.self.nu/"> Swedish website here!</a>
+									<br /> You can also check our <b><a href="https://www.self.nu/"> Swedish website here!</a></b>
 									</p>
 								</div>
 							</div>
@@ -79,7 +79,7 @@ const Midsection = () => (
 								<div className="columns is-mobile">
 								
 								<div className="column is-12">
-									<p className="subtitle is-size-7 is-size-1-desktop has-text-black">
+									<p className="subtitle is-size-6 is-size-2-desktop has-text-black">
 									<b>We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. </b>
 									</p>
 								</div>
@@ -87,12 +87,12 @@ const Midsection = () => (
 								</div>
 								</div>
 							</section>
-							<section className="section">
+							<section className="small-section">
 							<div className="container">
 							<div className="media-content">
 								<div className="content">
 								
-									<p className="subtitle is-size-5 is-size-2-desktop has-text-white">
+									<p className="subtitle is-size-6 is-size-2-desktop has-text-white">
 									Sign up now to our email list and get 20% off on your first order and updates for our launch in Egypt!
 									</p>
 								</div>
@@ -104,7 +104,7 @@ const Midsection = () => (
 								<div className="content footerspace">
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
-								<p className="subtitle is-size-5 is-size-1-desktop has-text-black">
+								<p className="subtitle is-size-6 is-size-2-desktop has-text-black">
 									Get Your 20% Discount
 									</p>
 								</div>

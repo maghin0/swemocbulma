@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
 
 						<div className="content"  >
 						<div className='columns is-multiline'>
-						<div className="column is-6">
+						<div className="column is-6 margin-text-hero">
 							<h1 className="is-uppercase is-size-3 is-size-large-desktop has-text-black" style={{marginBottom: 0}}>
 							Keeps you <br/> moving.
 							</h1>

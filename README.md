@@ -2,7 +2,7 @@
 
 > Your solution to dietary supplements at the highest quality!
 
-![SweMoc](https://i.imgur.com/OxLhJDc.png)
+![SweMoc](https://i.imgur.com/hUjTVnN.jpg)
 <!-- 
 ## Demo 💯
 

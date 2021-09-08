@@ -26,8 +26,8 @@ const Midsection = () => (
 							
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4 is-size-2-desktop has-text-white">About SweMoc.</h1>
-									<p className="subtitle is-size-6 is-size-3-desktop has-text-white">
+									<h1 className="title is-size-4 is-size-2-desktop has-text-white titlespace">About SweMoc.</h1>
+									<p className="subtitle is-size-6 is-size-4-desktop has-text-white">
 									There are thousands of supplements in the market, all vying for your efforts, time and trust.
 									<br /> But we’re different – we are a Swedish product, made in Sweden to bring you the highest quality standards!
 									<br /> SweMoc was created to provide you with supplements that are tasty, dependable, trusty, and effective. 
@@ -79,8 +79,8 @@ const Midsection = () => (
 								<div className="columns is-mobile">
 								
 								<div className="column is-12">
-									<p className="subtitle is-size-6 is-size-2-desktop has-text-black">
-									<b>We are on a journey with you to nurture your heart, mind and body so that you are in control of your wellbeing. </b>
+									<p className="quote-centered subtitle is-size-6 is-size-2-desktop has-text-white has-text-centered">
+									<b>We are on a journey with you <br/> to nurture your heart, mind and body <br/> so that you are in control of your wellbeing. </b>
 									</p>
 								</div>
 								</div>
@@ -104,28 +104,25 @@ const Midsection = () => (
 								<div className="content footerspace">
 								<div className="columns is-multiline is-mobile">
 								<div className="column is-12">
-								<p className="subtitle is-size-6 is-size-2-desktop has-text-black">
+								<p className="subtitle is-size-6 is-size-2-desktop has-text-black has-text-centered">
 									Get Your 20% Discount
 									</p>
 								</div>
 								
-								<div className="column is-8-mobile is-4-desktop">
+								<div className="column is-offset-3 is-6-mobile is-4-desktop">
 								<form name="Sign up" netlify>
 								<input className="input black-boarder is-small" type="text" placeholder="Enter your email"></input>
 								</form>
 								</div>
-								<div className="column">
+								<div className="column is-offset-4">
 								<div className="content">
 						
-								<a
-									className="button is-small blackcta"
-									href=""
-								>
+							
 									{/* <span className="icon">
 										<FaGithub size="fa-2x" />
 									</span> */}
-									<span type="submit"><p>Sign Up</p></span>
-								</a>
+									<span className="signup button is-small blackcta" type="submit"><p>Sign Up</p></span>
+								
 							
 						</div>
 						
@@ -137,7 +134,7 @@ const Midsection = () => (
 							</section>
 
 							<section className="hero"> 
-							<div className="hero-body center"> 
+							<div className=" hero-body center"> 
 							<a
 									className="button is-large whitecta"
 									href="mailto:info@swemoc.com"

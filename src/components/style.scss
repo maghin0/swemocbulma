@@ -6,6 +6,7 @@
 @import '~bulma/bulma.sass';
 
 $breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
 
 html {
   scroll-behavior: smooth;
@@ -13,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Robotobold', sans-serif;
+  font-family: 'Robotomid', sans-serif;
   overflow: hidden;
 }
 
@@ -23,6 +24,10 @@ h6 {
 
 p {
   font-family: 'Roboto', sans-serif;
+}
+a {
+  color: white;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
@@ -61,20 +66,20 @@ p {
 .smallfont {
   font-size: 0.5rem;
 }
-.wider {
-  padding: 1rem 1rem;
-  @media (min-width: $breakpoint-tablet) {
-    padding: 2rem 2rem;
-  }
-}
+// .wider {
+//   padding: 1rem 1rem;
+//   @media (min-width: $breakpoint-tablet) {
+//     padding: 2rem 2rem;
+//   }
+// }
 .logo {
   padding: 2rem 1.7rem;
 }
 .heroCta {
-  margin-top: 40vh;
-  margin-right: 50vw;
+  margin-top: 2vh;
+  // margin-right: 50vw;
   @media (min-width: $breakpoint-tablet) {
-    margin-top: 10vh !important;
+    margin-top: 2vh !important;
   }
 }
 .blackcta {
@@ -94,31 +99,48 @@ p {
   );
 
   display: flex;
-  background-image: url(../images/mob-hero.jpg);
+  background-image: url(../images/generic/mob-generic-hero-img.jpg);
   background-size: cover;
   margin: 1rem;
   border-radius: 1rem;
   @media (min-width: $breakpoint-tablet) {
-    background-image: url(../images/dsk-hero-2.jpg);
+    background-image: url(../images/generic/dsk-generic-hero-img.jpg);
     margin: 2rem;
     border-radius: 1rem;
   }
+  // @media (min-width: $breakpoint-desktop) {
+  //   background-image: url(../images/dsk-hero-2.jpg);
+  //   margin: 2rem;
+  //   border-radius: 1rem;
+  // }
+}
+.titlespace {
+  padding-bottom: 1rem;
+}
+.subtitle {
+  line-height: 1.5rem;
 }
 .quoteBg {
   display: flex;
-  background-image: url(../images/mobquotebg.jpg);
+  background-image: url(../images/generic/mob-generic-quote-img.jpg);
   background-size: cover;
   margin: 1rem;
   border-radius: 1rem;
   height: 30vh !important;
   @media (min-width: $breakpoint-tablet) {
-    background-image: url(../images/dskquotebg.jpg);
+    background-image: url(../images/generic/dsk-generic-quote-img.jpg);
     height: 90vh !important;
+  }
+}
+.quote-centered {
+  margin-top: 3rem;
+  @media (min-width: $breakpoint-tablet) {
+    margin-top: 10rem;
   }
 }
 .footerBg {
   display: flex;
-  background-image: url(../images/mobfooter.jpg);
+  background-image: url(../images/generic/mob-footer-lrg.jpg);
   background-size: cover;
   margin: 1rem;
   border-radius: 1rem;
@@ -126,6 +148,11 @@ p {
     background-image: url(../images/dskfooter.jpg);
   }
 }
+.signup:hover {
+  background-color: white;
+  color: black;
+}
+
 .center {
   display: flex;
   justify-content: center;

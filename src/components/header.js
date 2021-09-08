@@ -27,6 +27,7 @@ const Header = ({ siteTitle }) => (
 							<div className="column is-7" style={{paddingTop: 0, paddingBottom: 0}}>
 							<h6 className="subtitle has-text-black is-size-6 is-size-2-desktop" style={{marginBottom: 0}}>
 							Exclusive Swedish <br/> supplement solutions <br/> coming to Egypt.
+							<div className="column is-7" style={{marginLeft: 0,paddingLeft: 0}}>
 								<a
 									className="button blackcta heroCta"
 									href="#cta"
@@ -34,8 +35,11 @@ const Header = ({ siteTitle }) => (
 									{/* <span className="icon">
 										<FaGithub size="fa-2x" />
 									</span> */}
-									<span className="wider has-text-white is-size-5 is-size-4-desktop">Get 20% Discount</span>
+									
+									<span className=" wider has-text-white is-size-6 is-size-4-desktop" >Get 20% Discount</span>
+									
 								</a>
+								</div>
 							</h6>
 							</div>
 						</div>
